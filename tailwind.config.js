@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        League: "'League Spartan', serif"
+      }
+    },
   },
   plugins: [],
 }
