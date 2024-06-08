@@ -1,29 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="">
-    <header class="flex justify-between items-center shadow-xl px-28 py-5 bg-slate-200">
+    <link rel="stylesheet" href="/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <header
+      class="flex justify-between items-center shadow-xl px-10 py-5 bg-slate-200"
+    >
+      <div>
+        <img
+          class="w-1/4 h-auto cursor-pointer"
+          src="/images/logo.png"
+          alt=""
+        />
+      </div>
+      <nav>
         <div>
-            <img class="w-1/4 h-auto" src="/images/logo.png" alt="">
+          <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
         </div>
-        <nav>
-            <div>
-                <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
-            </div>
-        </nav>
+      </nav>
     </header>
-    <section class="bg-slate-300">
-        <div id="Main-hero" class="px-16 py-6">
-            <h4 class="text-4xl text-white font-bold font-League">Trade-in-offer</h4>
-            <h2 class="text-7xl text-black font-bold font-League">Super value deals</h2>
-            <h1 class="text-7xl text-emerald-600 font-bold font-League">On all products</h1>
+    <section class="bg-slate-300" id="Main-hero">
+      <div
+        class="px-20 py-12 bg-hero w-full h-screen bg-cover flex flex-col items-start justify-center"
+      >
+        <h4 class="text-4xl text-white font-bold font-League">
+          Trade-in-offer
+        </h4>
+        <h2 class="text-7xl text-black font-bold font-League">
+          Super value deals
+        </h2>
+        <h1 class="text-7xl text-[#088178] font-bold font-League">
+          On all products
+        </h1>
+        <p class="text-base font-League text-emerald-800 py-2">
+          save more coupons & up to 70% off!
+        </p>
+        <button
+          class="border-none text-[#088178] text-xl font-bold px-16 py-3.5 bg-button bg-no-repeat bg-cover w-[260px] h-[60px]"
+        >
+          Shop now
+        </button>
+      </div>
+    </section>
+    <section class="" id="Feature-box">
+      <div
+        class="grid grid-cols-2 px-6 py-4 gap-4 items-center justify-around md:grid-cols-3 md:px-16 xl:grid-cols-6"
+      >
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f1.png" alt="f1" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-red-100 font-bold text-[#088178]"
+          >
+            Free shipping
+          </h6>
+        </div>
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f2.png" alt="f2" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-green-300 font-bold text-[#088178]"
+          >
+            online order
+          </h6>
+        </div>
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f3.png" alt="f3" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-cyan-100 font-bold text-[#088178]"
+          >
+            save money
+          </h6>
+        </div>
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f4.png" alt="f4" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-indigo-100 font-bold text-[#088178]"
+          >
+            promotions
+          </h6>
+        </div>
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f5.png" alt="f5" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-pink-200 font-bold text-[#088178]"
+          >
+            happy sell
+          </h6>
+        </div>
+        <div
+          class="w-44 flex flex-col justify-center items-center py-6 px-4 border border-[#cce7d0] rounded transition-shadow duration-300 hover:shadow-lg"
+        >
+          <img class="w-full mb-2.5" src="/images/features/f6.png" alt="f6" />
+          <h6
+            class="inline-block p-2 text-sm rounded bg-orange-100 font-bold text-[#088178]"
+          >
+            24/7 support
+          </h6>
+        </div>
+      </div>
+    </section>
+    <section class="pb-10" id="Product-section">
+      <h1 class="text-5xl font-bold text-black text-center items-center py-4">
+        Featured Products
+      </h1>
+      <p class="text-base text-center items-center text-green-900 mt-3.5 mb-5">
+        Summer Collection New Morden Design
+      </p>
+      <div class="flex flex-wrap gap-12 items-center justify-around mx-5">
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f1.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f2.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f3.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f4.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f5.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f6.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f7.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <img class="rounded-3xl w-full" src="images/products/f8.jpg" alt="product image"/>
+          <span class="text-gray-400 font-League text-base">adidas</span>
+          <h4 class="font-bold font-League text-base">
+            Cartoon Astronaut T-Shirts
+          </h4>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              </div>
+              <h4 class="text-[#088178] font-bold font-League">$78</h4>
+            </div>
+            <a class="px-3 py-2 bg-emerald-50 rounded-full" href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178"></i
+            ></a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="Offer-banner" class=" flex flex-col justify-center bg-banner bg-cover w-full h-[40vh]">
+        <div class="text-center">
+            <h4 class="text-xl my-8 font-bold font-League text-slate-300">Repaire Services</h4>
+            <h2 class="text-5xl my-8 font-bold font-League text-slate-300">Up to 70% Off - All t-Shirts & Accessories</h2>
+            <button class="bg-white rounded-lg px-6 py-2 hover:bg-[#088178] hover:text-white">Explore More</button>
         </div>
     </section>
-</body>
+    <section></section>
+  </body>
 </html>
