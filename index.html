@@ -14,18 +14,44 @@
     />
   </head>
   <body class="">
-    <header
-      class="flex justify-between items-center shadow-xl px-10 py-5 bg-slate-200"
-    >
-      <div>
-        <img
-          class="w-1/4 h-auto cursor-pointer"
-          src="/images/logo.png"
-          alt=""
-        />
+    <header class="flex justify-between items-center shadow-xl px-10 py-5 bg-slate-200">
+      <div id="Header-logo">
+        <img class="w-1/4 h-auto cursor-pointer" src="/images/logo.png" alt=""/>
       </div>
-      <nav>
-        <div>
+      <nav id="Header-list" class="flex items-center justify-between gap-3" >
+        <div id="Header-list-nav">
+          <ul class="hidden lg:flex relative justify-between items-center font-League text-neutral-800 font-bold gap-3">
+              <li class="m-6 group relative w-max transition-all hover:text-[#088178]">
+              <a href="#">Home</a>
+              <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+              <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+            </li>
+            <li class="m-6 group relative w-max transition-all hover:text-[#088178]">
+              <a href="#">Shop</a>
+              <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+              <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+            </li>
+            <li class="m-6 group relative w-max transition-all hover:text-[#088178]">
+              <a href="#">Blog</a>
+              <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+              <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+            </li>
+            <li class="m-6 group relative w-max transition-all hover:text-[#088178]">
+              <a href="#">About</a>
+              <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+              <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+            </li>
+            <li class="m-6 group relative w-max transition-all hover:text-[#088178]">
+              <a href="#">Contact Us</a>
+              <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+              <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#088178] group-hover:w-3/6"></span>
+            </li>
+          </ul>
+        </div>
+        <div id="Header-list-icon" class="hidden lg:flex relative justify-between items-center">
+          <a href="#" ><i class="fa-solid fa-cart-shopping px-3 py-3 bg-emerald-50 rounded-full" style="color: #088178;"></i></i></a>
+        </div>
+        <div class="lg:hidden">
           <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
         </div>
       </nav>
@@ -127,7 +153,7 @@
         Summer Collection New Morden Design
       </p>
       <div class="flex flex-wrap gap-12 items-center justify-around mx-5">
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class="transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f1.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -148,7 +174,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f2.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -169,7 +195,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f3.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -190,7 +216,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f4.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -211,7 +237,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f5.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -232,7 +258,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f6.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -253,7 +279,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f7.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -274,7 +300,7 @@
             ></a>
           </div>
         </div>
-        <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+        <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
           <img class="rounded-3xl w-full" src="images/products/f8.jpg" alt="product image"/>
           <span class="text-gray-400 font-League text-base">adidas</span>
           <h4 class="font-bold font-League text-base">
@@ -297,7 +323,7 @@
         </div> 
       </div>
     </section>
-    <section id="Offer-banner" class=" flex flex-col justify-center bg-banner bg-cover w-full h-[40vh]">
+    <section id="Offer-banner" class=" flex flex-col justify-center bg-banner bg-cover w-full h-[47vh]">
         <div class="text-center">
             <h4 class="text-xl my-8 font-bold font-League text-slate-300">Repaire Services</h4>
             <h2 class="text-5xl my-8 font-bold font-League text-slate-300">Up to 70% Off - All t-Shirts & Accessories</h2>
@@ -312,7 +338,7 @@
           Summer Collection New Morden Design
         </p>
         <div class="flex flex-wrap gap-12 items-center justify-around mx-5">
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n1.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -333,7 +359,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n2.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -354,7 +380,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n3.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -375,7 +401,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n4.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -396,7 +422,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n5.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -417,7 +443,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n6.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -438,7 +464,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n7.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -459,7 +485,7 @@
               ></a>
             </div>
           </div>
-          <div id="product-cart" class=" shadow w-full max-w-72 border border-gray-200 rounded-3xl p-3">
+          <div id="product-cart" class=" transition-shadow duration-300 hover:shadow-xl w-full max-w-72 border border-gray-200 rounded-3xl p-3">
             <img class="rounded-3xl w-full" src="images/products/n8.jpg" alt="product image"/>
             <span class="text-gray-400 font-League text-base">adidas</span>
             <h4 class="font-bold font-League text-base">
@@ -483,7 +509,7 @@
           
         </div>
     </section>
-    <section id="Banners" class="">
+    <section id="Banners">
         <div id="Big-banners" class=" flex flex-wrap justify-center">
             <div id="Big-banner-1" class="bg-big-banner-1 group h-80 bg-cover bg-no-repeat m-3.5 flex flex-col justify-center items-start p-3.5 sm:min-w-[580px]">
                 <h4 class="text-xl text-white font-League font-bold">crazy deals</h4>
@@ -513,5 +539,73 @@
             </div>
         </div>
     </section>
+    <section id="Newsletter" class="bg-newsletter bg-left h-60 bg-[#041e42] flex flex-wrap items-center justify-between px-10 md:px-20 md:h-40">
+      <div id="Newsletter-text" class="">
+        <h3 class="text-white text-3xl font-League font-bold">Sign Up For Newsletters</h3>
+        <h5 class="text-base font-bold text-gray-400">get e-mail updates about out latest shop and <span class="text-yellow-400">special offers</span></h5>
+      </div>
+      <div id="Form" class="">
+        <form action="" class="flex flex-row">
+          <input class="rounded-l-md px-5 py-4 w-48 bg-gray-300 placeholder:text-gray-500 placeholder:text-lg md:w-56 xl:w-80" type="email" placeholder="Enter email address" />
+          <button class="rounded-r-md px-5 py-4 w-28 bg-[#088178] text-lg text-white">Sign Up<button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-gray-200">
+      <div class="flex flex-wrap p-10 gap-20 md:grid-cols-4 font-League">
+        <div id="contact" class="flex flex-col justify-center px-5">
+          <div class="flex items-center justify-between">
+            <img class="w-14 h-auto cursor-pointer" src="/images/Footer-logo.png" alt="logo">
+            <h3 class="text-lg font-bold">Contact</h3>
+            <br>
+          </div>
+          <div class="text-gray-500">
+            <p><b>Address:</b> Wellington Road, Street 32. San Francisco</p>
+            <p><b>Phone:</b> Wellington Road, Street 32. San Francisco</p>
+            <p><b>Hours</b> 10:00 - 18:00. Mon - Sat</p>
+          </div>
+          <h3 class="text-lg font-bold">Follow Us</h3>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-square-facebook" style="color: #6b7280;"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube" style="color: #6b7280;"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram" style="color: #6b7280;"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #6b7280;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #6b7280;"></i></a>
+          </div>
+        </div>
+        <div id="about" class="flex flex-col justify-center px-5" >
+          <h3 class="text-lg font-bold">About</h3>
+          <div class="text-gray-500 flex flex-col">
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div id="myaccount" class="flex flex-col justify-center px-5">
+          <h3 class="text-lg font-bold">My account</h3>
+          <div class="text-gray-500 flex flex-col">
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+          </div>
+        </div>
+        <div id="install" class="flex flex-col justify-center px-5">
+          <h3 class="text-lg font-bold">Install App</h3>
+          <div class="text-gray-500 flex flex-col">
+            <p class="mb-1">From App Store or Google Play</p>
+            <div id="download" class="flex justify-between gap-1 w-3/4">
+              <a href="#"><img class="border border-[#08817969] rounded-md" src="images/pay/app.jpg" alt=""></a>
+              <a href="#"><img class="border border-[#08817969] rounded-md" src="images/pay/play.jpg" alt=""></a>
+            </div>
+            <p class="mb-1">Secured Payment Gateways</p>
+            <img class="w-1/2" src="images/pay/pay.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -15,6 +15,7 @@ module.exports = {
         'small-banner-1': "url('images/banner/b7.jpg')",
         'small-banner-2': "url('images/banner/b4.jpg')",
         'small-banner-3': "url('images/banner/b18.jpg')",
+        'newsletter': "url('images/banner/b14.png')",
       }
     },
   },
