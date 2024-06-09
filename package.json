@@ -108,7 +108,8 @@
     "wrap-ansi-cjs": "^7.0.0"
   },
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
